@@ -9,7 +9,7 @@ import Testimonials from './sections/Testimonials'
 
 const App = () => {
   return (
-    <div>
+    <main className="overflow-hidden">
       <Header />
       <Hero />
       <Features />
@@ -18,7 +18,7 @@ const App = () => {
       <Testimonials />
       <Download />
       <Footer />
-    </div>
+    </main>
   )
 }
 
