@@ -6,6 +6,7 @@ import Header from './sections/Header'
 import Hero from './sections/Hero'
 import Pricing from './sections/Pricing'
 import Testimonials from './sections/Testimonials'
+import ComponentsMetaData from './utils/ComponentsMetaData'
 
 const App = () => {
   return (
@@ -18,6 +19,7 @@ const App = () => {
       <Testimonials />
       <Download />
       <Footer />
+      <ComponentsMetaData />
     </main>
   )
 }
